@@ -1,0 +1,7 @@
+def isEven(self,n):
+	if n%2==0:
+        print("true")
+    else:
+        print("false")
+N=int(input("Enter a Number: "))
+isEven(N)

@@ -1,0 +1,7 @@
+ def armstrongNumber (self, n):
+      sum=0
+      for i in str(n):
+          sum+=int(i)**3
+       if n == sum:
+           return True
+       return False

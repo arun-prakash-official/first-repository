@@ -1,0 +1,3 @@
+def floorSqrt(self, n): 
+        sr=int(math.sqrt(n))
+        return sr

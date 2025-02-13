@@ -1,0 +1,9 @@
+def get_min_max(self, arr):
+  min=float('inf')
+  max=float('-inf')
+  for n in arr:
+  if n < min:
+    min=n
+  if n > max:
+    max=n
+  return (min, max)

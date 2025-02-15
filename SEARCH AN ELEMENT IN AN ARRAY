@@ -1,0 +1,5 @@
+def search(self, arr, x):
+        for i in arr:
+            if i == x:
+                return arr.index(i)
+        return -1

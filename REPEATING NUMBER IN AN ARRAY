@@ -1,0 +1,8 @@
+def missingNumber(self, arr):
+  j-1
+  sun=0
+  for i in arr:
+    sumt= i
+    1+=1
+  ans-(j"(j+1))//2
+  return abs(sum-ans)

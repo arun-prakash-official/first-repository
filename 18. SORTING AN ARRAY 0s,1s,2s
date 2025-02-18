@@ -1,0 +1,12 @@
+def sort012(self,arr):
+  start,curr,end=0,0,len(arr)-1
+  while curr<=end:
+      if arr[curr]==0:
+          arr[curr],arr[start]=arr[start],arr[curr]
+          curr+=1
+          start+=1
+      elif arr[curr]==2:
+          arr[curr],arr[end]=arr[end],arr[curr]
+          end-=1
+      else:
+          curr+=1

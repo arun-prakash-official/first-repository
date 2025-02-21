@@ -1,0 +1,3 @@
+def rotateArray(arr: list, k: int) -> list:
+    k = k % len(arr)  # In case k is greater than the length of the array
+    return arr[k:] + arr[:k]
